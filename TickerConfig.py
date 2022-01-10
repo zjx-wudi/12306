@@ -9,10 +9,10 @@ TICKET_TYPE = 2
 
 # 出发日期(list) "2018-01-06", "2018-01-07"
 STATION_DATES = [
-    "2020-12-25"
+    "2022-01-21"
 ]
 # 预售放票时间, 如果是捡漏模式，可以忽略此操作
-OPEN_TIME = "12:43:00"
+OPEN_TIME = "12:30:00"
 
 
 # 填入需要购买的车次(list)，"G1353"
@@ -21,10 +21,10 @@ OPEN_TIME = "12:43:00"
 STATION_TRAINS = []
 
 # 出发城市，比如深圳北，就填深圳就搜得到
-FROM_STATION = "杭州"
+FROM_STATION = "北京南"
 
 # 到达城市 比如深圳北，就填深圳就搜得到
-TO_STATION = "商丘"
+TO_STATION = "铜陵"
 
 # 座位(list) 多个座位ex:
 # "商务座",
@@ -45,14 +45,15 @@ IS_MORE_TICKET = True
 # 乘车人(list) 多个乘车人ex:
 # "张三",
 # "李四"
-TICKET_PEOPLES = [""]
+TICKET_PEOPLES = ["张家祥"]
 
 # 12306登录账号
 USER = "不需要配置aa"
 PWD = "不需要配置"
-tk = ""
-RAIL_EXPIRATION = "1608974698285"
-RAIL_DEVICEID = "gtJfNuBFUBPOakMf1Ujs_h7pUWCjoJik-SsmL78AOHgmfFki0edSZmxdwyuEi4Hpj94MAAu-JKtQNIZA8fSh_kwlHBRt7mAcG9lO5NXcJIfo05u8gr3_mwCbhwUFBXOeTl6GuJpTke-5_s-LU1mtZWMbIGXJbAtN"
+tk = "sNn1MqXCw3IuoPljjZC31hFqSFkV1fF2nxCGvbcJwrM92z1z0"
+# JSESSIONID=72CE62CF89D19A6D420FED38F79A8B4D; tk=9nq-_9SBXebcEI7wkMqQlWvy8XSFOqQBSV1dnnMUeFwfsz1z0; RAIL_EXPIRATION=1642064486918; RAIL_DEVICEID=q1s4u2D58jrKnwkwBMFb80DyXOIhhQdV8w11RNUF9DOXUoBTPlA8X2DeONeW49u6f5XBjmydexSoFAS-W4PQ4Siqwkg8mrAVjqDhrXTQ29aaHvh8KBY45-8Lq7pSIY-BP7VXKAPn3xphZGczyc_DmIZe1xgHoGIn; BIGipServerpool_passport=82051594.50215.0000; highContrastMode=defaltMode; guidesStatus=off; cursorStatus=off; route=9036359bb8a8a461c164a04f8f50b252; BIGipServerpassport=971505930.50215.0000; BIGipServerotn=116392458.38945.0000; uKey=d2e76729b65a6b172db683ac4cbe5a1fb2c3e8545893a8de6884a1ffe4600c91
+RAIL_EXPIRATION = "1641999335376"
+RAIL_DEVICEID = "g7xubl7d7X48O04ghjRKJPkBzw0ErBIw-aY_U4T8wm8CD4aOsix8tZnMUknzQpspEexKjX2YJFl4vZKcLk87tZAFnIiqZDqEHngNJy5qWyWMb2Mbj6SuhVpEsReoES_PmjKQPqdELTyMe5oCrOfqFIT2gB_65Xky"
 
 
 # 加入小黑屋时间默认为5分钟，此功能为了防止僵尸票导致一直下单不成功错过正常的票
@@ -89,10 +90,10 @@ HTTP_TYPE = "http"
 #  host: "smtp.qq.com"
 EMAIL_CONF = {
     "IS_MAIL": True,
-    "email": "",
-    "notice_email_list": "",
-    "username": "",
-    "password": "",
+    "email": "756061847@qq.com",
+    "notice_email_list": "756061847@qq.com",
+    "username": "756061847@qq.com",
+    "password": "xwniqgjfvuqabbda",
     "host": "smtp.qq.com",
 }
 
@@ -164,4 +165,4 @@ RE_VERSION = "1.2.004"
 
 
 # (可选) sre24 免费推送消息到 微信/短信/邮箱 提醒，token 值登录 https://sre24.com 「设置」页面获取
-SRE24_TOKEN = ''
+SRE24_TOKEN = '06a2d141a442b571c566157886d4304b'

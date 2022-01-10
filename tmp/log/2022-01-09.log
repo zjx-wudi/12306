@@ -1,0 +1,650 @@
+[2022-01-09 18:23:25,421][    INFO] --- url: /otn/login/init 返回参数为空 (logger.py:61)
+[2022-01-09 18:28:52,438][    INFO] --- url: /otn/login/init 返回参数为空 (logger.py:61)
+[2022-01-09 21:43:06,770][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': '9nq-_9SBXebcEI7wkMqQlWvy8XSFOqQBSV1dnnMUeFwfsz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:43:07,092][    INFO] --- 出参：{"result_code":2,"result_message":"uamtk票据内容为空"} (logger.py:61)
+[2022-01-09 21:46:53,603][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:53,798][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0"} (logger.py:61)
+[2022-01-09 21:46:53,816][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:54,004][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:46:54,515][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:54,706][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:46:54,706][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'XKO8GRGDx1nOF9tum/wSXEli7gSw2g7G2l+QnZl5yVjDu2SvNyVhCJqdMx9+saqvg0nYJpIIyujC\nZnLLvQtbJbmmd9AaR7IzB7EIGPBX9/tXPpmNI9UeQ+mS9CW5kM7q65RExar4TfltP9p3Hz9FoxmZ\n5SanAIFZ0g/+42qvbR9wo2GHh+m70LPt7z3I9ffaaH7ETJ/0SJs1OYKdQ1aeS30Ya5bfwyCLDZR2\nFRw/uI5PwfpVcFjghxnbX4D9XVTtoaHvjBit+JcV6T5WGQ5347ZE60PWB/NruzsoU1CgQ1gJjE4I\n1j+qzxV2p24='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:56,611][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:56,812][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:46:56,812][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'AsqnDluWlRBh0hlPcI5GupGUuil8tlbR43IrmKBtMoJ+9felYv/DOfnpKr59EoQT/AKeIavNw//T\nqd2efOQP8GNApayyifdwTVzPLAiLN3sVTfJDWixgLZ3GJvOnonaCQp43dOjLAtRw++FuLfQlaely\np7lxSkC5ayLNXue1ZcPTkAHDy7s79dG88Rw2MSLJJEAm6vcSarrRQ3FTzs+FWse1FhNR3yYBL2wL\nZIYyU/NMlSuiqm4+Z9l/mSZwSjRyGIwX+LCkiFSA+jvP6j4+8kg5oWaIN0NZEQJBfevRhLTrcMY2\n7YeGr1Hm/7o='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:56,827][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:57,877][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:46:58,515][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:46:58,694][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:46:58,694][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'aXislqiCUgs12mPGDW2gqIXOQduT76d/9xTQ606jvmYbB09UzZXHC/ZPOLYjEoO3Z3TNdbk8lZAl\nxlauhyaywcnft5Nj6nUHJQ5V84/zL0emh9xcY+xOx0s8BNz5Woqp/zdjnFQOAJQMsbmWbZducPlN\na1f4MsAk3osVErVObD8iFF969C9egEW4/rtAOut+94Hr0v8OkMiiJmzUEtnfW2LsBKkSbyXmogIv\naC/B4AIvWAxJpQE2PMz9GR31KGKkMIWAOcxoxanKEpq3KN/Nyew8v7ccQCWSzVjpKrexvZQS6cD7\nqYmCIDWIvZw='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:00,598][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:00,775][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:00,775][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'k+wHyV8T1im4LJ5RcTWl0mDJ2brcycO3sExasi4nXCe0ke7Yci2dzkt6X1BXJeZRIqwgL54k2Huf\nkkRssgdK9qDoX34BlH46/e4il4X8BQCCcyMIxG9aAaryo+uWnpOxsG18ZKyFx2q+sAzR2H0Sbr0s\nvbcGzc3hSVyHPvDzbhqHKXJ9l9lfpKRs3HnNhy2SOhLLHvLYJYFfFkmoDDCpl74T5Mdhj8JMQ6vu\nTuHtQYQZDcKajbW5Ljea91aflPiUkKQn/JXQYQXFL/k+7HpiJ83xAxRPVFbCXOdj1PVKuzcrYBts\nX8ceSTiORR0='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:02,371][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:02,503][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:02,503][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'esKvxsOc1X/rRWM7rXtWkKpgSXdebonmamfDH7fqzAqDwdL1jZBbMFs7ydfc4QSpasRdMUlM7IIK\nZlqeNSVwhzZwsNp7VnMTuUnI0+xG2ThpVd5OmhendTMn9SNrgQBwKRJIbrre7/0FkoDkatH5H/b+\nQjcpgd2roHIzDCWF/6A/j9+gtiC7iXvKyrr1ARUjzZ57WvymryTgBMvuvz/bdty/+o8rFs3uDi46\nk0ACjPCFBiTwWx6zV6M60rfTBsf2/KjkMXZ/7Ee7Hb+iCY3Wd/tkEP55UTou6aZVa02fOkQEydui\nw+/EhEAR728='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:04,391][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:04,521][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:04,521][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'octYFO6ma0+OyjOSmDva5+IagYrnJ1GPdwPDbumcxwfSzQTI+7p4i0K7P4gaqb1tJ+HFZSWZYoN9\ne0jRkIvXKos93+pUecWzxg7jrsWi97VtKNmnxhYFYx8V9ribCIY+orprxLYRFNec+h+149WSmPzR\nfiiazIWTa+4ILxAd4rh0Eow/bQEFmakzia0KOsVDVw2Uh2fOa1Sl1gluf+rTfbLr9sFcrYCV6SNW\nqTMxdEDPKn0UbQSFXenaaDtNA0rITgoRF8u0hyBDKBKBoBn2v4CczZFUZWUGW5K7BOOAhzEiWn7i\nLHI3RC8kHJ4='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:06,141][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:06,294][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:06,294][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'pZ4Imk8S5Z2U3N5wQtILGlIUix2Qm66U3kf7Fpn3QvkGSULV8qzh4o0KnNxPDPx4sYU3UQoMKnh8\n4YG99X8pwcdwcK7yEhXptDwSH7Xr4wShXDfmmcwTG+74XP8aN1uzJQKnPVwEWbZ34VRJ0NzMoCQx\nXMUPFOxu20DuNmGDLfBDNoZ8XmmhScpPoJF5o5ZT7guEPAGKvx+99k+LZj8AvDcz7IrgHZP06+jS\nS7qwDXxfecwdn7nPo2m8lN8i6B9znMP3ukTAuM9jyTYTA352P8VsiS1IGXYi3Mzi6kcPjjGqZxwd\ngu4tKNataME='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:07,820][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:07,982][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:07,982][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '6JrMUmRHPd7/6TV5i3NwmCK7lvlhMNwPyoxSsRtcwbdfWMxxRRw1KXjQbY02OS8XzddLx5bN14kp\neX1zcBayz9lsQJ6Lw0h/oLojkb3bUyP6qjBztQ2PJeK0BBN9qaCuNweUWfoM/XlM78bBqhBJ8xa6\nbeg0TTvpewt9McCgcOgOXlL5R5L0g3X9Ckl81MsJEjl/9EevyZrf1z30Wd8KzXTmwDGDR596L5e3\nLObMeL36i7MkHZ46lg8V4X/APQt2Wyg5Sq1UiYlQK5EgVZVV37BTkMSS8C87xAZcmpDjgFsEiRH4\nV9sCsyvHCis='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:09,432][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:09,564][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:09,570][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '/c9co1L6Cj/8P/5sgJlJM0tLPNcATltJmMLyZ1fWQOeGSxyBhmjphu9ZfMB/mOmsIlVSqqDAdai6\n0D2B4PNuPPTaFHQUS1pRtW48EPQGW+XFpusRVyJDREm9rEh9tETrBquSX9DyaqQAXjvFxbMraD/K\nJwLUe6N/nowS9wzFK0jIYO4lkLka59l18fI6vOax8lqTRnMxAA5wVXLUCvmqIRV2mqOnOQvjDdGW\nYK/m3x2fJOCUA6QYrMBBICnU6+DxvpLK3jIGA18nBb0l1eEuBxfldWIdr3m4OlLTHdwMLmsq6dOL\nFLuqElKRhR0='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:11,052][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:11,190][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:11,190][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'CzDqNUncTzieTIt27LfaocOGcTDWov8MUnnLjAfxd3eT//lf6zq3WzlFKTjCayA0NDMA3ygeLlRi\nnuQ0Sb6V3Y81mIvyDF5HegyWEN9CtSZT4AdptqJVzogcUUjCMFElTApvSIyaJOQuvjKTkRDColSc\nxwfwUOpB6Nn7rAJvEOUeFflyV736/WmMUpWhA9kbUcwcx4K8Qso3oQn3L+hBVg9CXqUwqRP3TzT6\nktDr2LdWu6hbDmgsxtqc4H6gPgNreylIkcwnivIIhryBTZ3MoY+ZeFTAi/Nx+0wMcv0iHfc4C9tu\nhNAV8OPHGBA='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:12,802][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:12,941][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:12,941][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'KdHkPXLgqXkCwQL6rp1KhkMorm6r7/UvUXz1z44NCbMarn94/H3phYwvQRkO+bxMHDR17u+ffX62\nJvdBvdEq4dnQwaMc5oMZw5Y7zCzHScoYTFxw+Zo85VICRljDKsMNIETuJRNBrImk0935wfdPKf01\n+ZVNour50B8GZq78K9dDybfDnWdpxWMH1rHrSDBnWW8U8UaS4x+e7OfHXg+ewhVm/DZzWJnBOo2i\ngRF6F5r+50IYaRUO6o1Hzt/QQ1JSsM0KToaOCKhloyfysR0LDxUpIvMEG6V9EC2v/6+zGTN5jTy5\n1ebgeql1Cd0='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:14,583][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:14,730][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:14,730][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'SQ7KjFqpPV8JcHvIApvJ5qds1wFlpr6lpj01FGWMnS61KcH5i5z00jZBgN+4d1DORmudBTapZLWc\nx588/VM00+y7Y6J6OXXAjzE8Uw0ib1AYNaWD9FnlDFkYvmkTbfZe1Baoy01EmaLrxEkDML0ct8iu\n9aisJX+++5iAqgXMEvZ6NPXDgNEVsLT+hs+hmZtBaJUmM+5d1J4ukoBUb4McRLxqeSr0SoPs6bRo\nEKiq7nClTWSlg36bR/YSJqbFToTaqN8KkREgUDXLcvaJxMddpb3w6BUM2ERjkVOKytIAPfQPXWCt\n4uPTsprHIhI='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:16,350][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:16,519][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:16,519][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '67wpEspcexFxDYhN4kNFztVn6qmw9H7fMdhf/iLdXeqMssf2VluXT9BF5gFm/ZZBo89677YIk0Ew\nz25VZONigeINs9EEVkcMt3PKlnmt6VzqPTEeoqUvgJGkqGvxFN8MWudh6QKi3zhBmJ4hIUAWwlOH\n7Ee+BFgr18pIF/hJKEtUAmZ110ja/3PVbzfW4PDfyXvRzg9dQiGstC7sVVRKvfcCaqXAE2x6+X6q\npzfnpXYoFZH56UaxXkfWKISKiZTZOx7gDl3JWjxdIhzxa9Rj7hACDiCSGP8t1mAauqY+HcuFzi8/\nctVPrC8ZRi8='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:18,093][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:18,256][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:18,256][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'sg59LX6X8M+Uu5/mjUZC93wXuC+htGY9bArnMCzOq0+JD5VSwS68/e9f49r/L9T2qeTvdjXFGNi9\ne23GzripZkZsyuFWH0xF/CObNOwAiDgwor0gJqM+NjG7GhG/znnH5i5YjnatBI/iDtWICpMdeNuA\nue5NwTJHE1opWcL6N0ktcLvPlqkiavIvSORAiodElxVgXJ0FIn7PbzLEsau5pJ/Q3C62vi/j3Igq\nMPbm10TZ1eH08fzV4fi1G1jbjDDKHueovlUX7lYGtyvZYdLHLAJIvOODdqBRAUp7xtyKiY+Fz9mY\nU/SRjt0+IFg='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:19,796][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:47:19,944][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:47:19,944][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'PEOSazlMAivg7dhKYg7OQlpdPvtWgTe3GNXwd64YeUmAOTwS9UHbeNNWbUppyn89DdvyEJctU5CJ\nO1gSXKT9P4noBmXd+TDcqNB92S73RHuuwA55qMuE5BI3ArHf/2b1+X9I7jNnHbNgWNAqsCPBZ0xd\nCJ951wbZ0esm6kfv5+kidA/u2kzOkXOiCMwDz6Wna6RCd9PlwYLzFuwxImAHfgfFP0ffQAC7tRQd\nOcnK/cRvXQLeHPpOSmLYy29hfzNN/0HtSsHhzzgbI8tdIELnftfa5rIqV6i69EpNyJc1+xi2BL5i\n1/zkD+5vMWs='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:54:57,142][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:54:57,361][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0"} (logger.py:61)
+[2022-01-09 21:54:57,376][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:54:57,580][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:54:57,902][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:54:58,202][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:54:58,218][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'gTaRFJP2mfsmSUeOe9HQGj5TBGVB5HAbTCh9zIso+GBxky2Cql6n/fukRsoJBbSBexRb1UHPhHIJ\nVYw/DwJcHRsENbqyLfQu8wgGzaMV7UNHTuTL/VwqBNrMHGcorLXqMZJ/M2ccKfZjsyf0dTSQFuUl\nWV7N08bhALjNuL8otpQwPDNxBQLRHV0D6ku7U5sifNcw1eG6T308FksVo7DXV9wzirG/sgA36Z/Q\nzefJuuRFVfch7oxIz/X5V+C/o/OnWUlNnJqUlDt8CyxBJnaYX1yTZdguDGbZseCKejDKAdtRHVbj\nyhB0w/GVK1Y='), ('train_date', '2022-01-20'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:54:58,819][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"0","messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:00,155][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('bed_level_order_num', '000000000000000000000000000000'), ('passengerTicketStr', 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af'), ('oldPassengerStr', '张家祥,1,3407***********119,3_'), ('tour_flag', 'dc'), ('randCode', ''), ('cancel_flag', 2), ('_json_att', ''), ('REPEAT_SUBMIT_TOKEN', 'c0119c34f9a5f98f17b0adac11128e5d')])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:55:00,358][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"O","isCanChooseMid":"N","ifShowPassCodeTime":"1308","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:00,374][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Thu Jan 20 2022 00:00:00 GMT+0800 (中国标准时间)',)), ('train_no', ('240000G3250M',)), ('stationTrainCode', ('G325',)), ('seatType', ('O',)), ('fromStationTelecode', ('VNP',)), ('toStationTelecode', ('KXH',)), ('leftTicket', ('v%2Bjw4J7%2BMVssLfc8SObVI1AJZrHLsKcmMu9jL%2BJInjJiz4GW',)), ('purpose_codes', ('00',)), ('train_location', ('P4',)), ('REPEAT_SUBMIT_TOKEN', ('c0119c34f9a5f98f17b0adac11128e5d',))])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:55:00,374][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:55:00,606][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"0","ticket":"385","op_2":"false","countT":"0","op_1":"false"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:01,741][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:01,926][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'passengerTicketStr': 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af', 'oldPassengerStr': '张家祥,1,3407***********119,3_', 'purpose_codes': '00', 'key_check_isChange': '2505562C23DAE5E6E3C3E359B9896E355C22A793D6EF9622DC806227', 'leftTicketStr': 'v%2Bjw4J7%2BMVssLfc8SObVI1AJZrHLsKcmMu9jL%2BJInjJiz4GW', 'train_location': 'P4', 'seatDetailType': '', 'roomType': '00', 'dwAll': 'N', 'whatsSelect': 1, '_json_at': '', 'randCode': '', 'choose_seats': '', 'REPEAT_SUBMIT_TOKEN': 'c0119c34f9a5f98f17b0adac11128e5d'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:55:02,201][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isAsync":"1","submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:02,201][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641736502201&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 21:55:02,412][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6885941816328222521,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:55:04,416][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641736504416&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 21:55:04,890][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6885941816328222521,"waitCount":0,"tourFlag":"dc","orderId":"EH11665386"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:54,548][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:54,712][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0"} (logger.py:61)
+[2022-01-09 21:57:54,732][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:54,885][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:54,988][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:55,132][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:55,132][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '+5dEiZnIdHcsawuDO/NQENmXD0dhxebPi2tu5cgEpJWYrXm8B3Zh++IW60CM29yarj31nTZhnmTw\nSog79P5iTMqY7QQWQB9ki5KWwqTUpBgiKZfs0vjFJ1x8AQ1DZjoxTT9bvMqIglD9Do+k0YWyaMzR\nXdK/l5qfH55hVKgdKGP25uqjQOXJTAdmT8+PLZNOpKvhZaMYrMtR0qX9ix7SeQRl1ktotyWSyN6s\npmFz0lN8H2NKh+nhYF0qW2//dR+fC2ywiD7C9IWZ1egSx6DsWwHynjrreE0bhzEjSB2DQNVrUD7M\nwbsaNMrg6nY='), ('train_date', '2022-01-22'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:55,304][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"0","messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:56,403][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('bed_level_order_num', '000000000000000000000000000000'), ('passengerTicketStr', 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af'), ('oldPassengerStr', '张家祥,1,3407***********119,3_'), ('tour_flag', 'dc'), ('randCode', ''), ('cancel_flag', 2), ('_json_att', ''), ('REPEAT_SUBMIT_TOKEN', '09c357ac36b36497790e8c35b6892208')])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:56,553][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"OM","isCanChooseMid":"N","ifShowPassCodeTime":"1846","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:56,553][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Sat Jan 22 2022 00:00:00 GMT+0800 (中国标准时间)',)), ('train_no', ('24000G259503',)), ('stationTrainCode', ('G2595',)), ('seatType', ('O',)), ('fromStationTelecode', ('VNP',)), ('toStationTelecode', ('KXH',)), ('leftTicket', ('ngglVfi6vfFC1%2FZJ5u64jkOgjXgmYcvJJ917kWwvyJQGPxYh',)), ('purpose_codes', ('00',)), ('train_location', ('P4',)), ('REPEAT_SUBMIT_TOKEN', ('09c357ac36b36497790e8c35b6892208',))])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:56,703][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"7","ticket":"275","op_2":"false","countT":"0","op_1":"true"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:57,737][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:58,559][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'passengerTicketStr': 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af', 'oldPassengerStr': '张家祥,1,3407***********119,3_', 'purpose_codes': '00', 'key_check_isChange': '1759D9AE5DADEDA500870B91B1DC4F22FE1FC9EC1FA6C97C9585958B', 'leftTicketStr': 'ngglVfi6vfFC1%2FZJ5u64jkOgjXgmYcvJJ917kWwvyJQGPxYh', 'train_location': 'P4', 'seatDetailType': '', 'roomType': '00', 'dwAll': 'N', 'whatsSelect': 1, '_json_at': '', 'randCode': '', 'choose_seats': '', 'REPEAT_SUBMIT_TOKEN': '09c357ac36b36497790e8c35b6892208'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 21:57:59,077][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:59,077][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isAsync":"1","submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:57:59,093][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641736679093&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 21:57:59,245][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6885942558384486201,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 21:58:01,246][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641736681246&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 21:58:01,383][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6885942558384486201,"waitCount":0,"tourFlag":"dc","orderId":"EH36165617"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:00:54,401][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:00:54,570][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0"} (logger.py:61)
+[2022-01-09 22:00:54,570][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:00:54,701][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:00:54,818][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:55,303][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:55,821][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:56,259][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:56,739][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:57,279][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:57,579][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:00:57,779][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:58,111][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:58,580][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:58,612][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:00:59,044][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:59,337][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:00:59,799][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:00,252][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:00,887][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:01,436][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:01,907][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:02,220][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:02,857][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:03,212][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:03,897][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:04,246][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:04,483][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:05,100][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:05,555][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:06,157][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:06,566][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:07,105][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:07,511][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:08,027][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:08,412][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:08,907][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:09,307][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:09,567][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:10,040][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:10,594][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:11,097][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:11,578][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:12,079][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:12,495][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:13,219][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:13,704][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:14,185][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:14,702][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:15,088][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:15,548][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:16,043][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:16,560][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:17,163][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:17,467][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:17,981][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:18,333][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:18,749][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:19,383][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:19,936][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:20,554][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:20,870][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:21,320][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:21,641][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:22,176][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:23,710][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:24,220][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:24,565][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:25,034][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:25,535][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:01:25,883][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:02:04,825][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:02:05,883][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:04:07,420][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:04:07,638][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0"} (logger.py:61)
+[2022-01-09 22:04:07,653][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:04:07,870][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:04:07,969][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:08,538][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:08,864][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:09,287][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:09,858][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:10,357][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:10,659][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:04:10,694][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:11,175][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:11,643][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:11,744][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:04:12,245][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:12,845][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:13,415][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:13,880][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:14,359][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:14,849][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:15,250][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:15,749][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:16,059][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:16,320][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:16,637][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:17,253][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:17,786][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:04:18,240][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:27,008][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:05:28,228][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:05:33,384][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:33,960][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:34,456][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:34,942][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:35,264][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:35,706][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:36,298][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:36,666][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:37,467][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:37,949][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:38,449][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:39,253][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:39,690][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:40,006][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:40,337][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:40,892][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:42,309][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:43,142][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:43,680][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:44,181][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:44,630][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:44,899][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:45,363][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:45,817][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:46,134][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:46,566][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:46,802][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:47,504][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:48,052][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:48,575][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:48,956][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:49,480][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:49,810][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:50,511][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:50,743][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:51,377][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:51,762][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:52,331][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:52,896][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:53,450][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:53,936][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:54,283][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:54,752][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:55,121][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:55,524][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:56,054][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:56,595][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:57,024][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:57,525][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:58,042][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:58,427][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:05:58,776][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:00,265][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:00,746][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:01,194][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:01,784][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:02,298][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:02,680][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:03,118][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:03,467][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:03,952][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:04,337][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:04,869][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:05,284][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:06,156][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:06,457][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:07,007][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:07,590][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:06:08,075][    INFO] --- url: /otn/leftTicket/queryT?leftTicketDTO.train_date=2022-01-30&leftTicketDTO.from_station=VNP&leftTicketDTO.to_station=TJH&purpose_codes=ADULT 返回参数为空 (logger.py:61)
+[2022-01-09 22:38:30,572][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'a84p1gUWl6yPGRiISoSMHLrMuYuKb7QzH0-MYSiuVMogaz1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:38:30,709][    INFO] --- 出参：{"result_code":2,"result_message":"uamtk票据内容为空"} (logger.py:61)
+[2022-01-09 22:40:30,632][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'sNn1MqXCw3IuoPljjZC31hFqSFkV1fF2nxCGvbcJwrM92z1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:30,784][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"sNn1MqXCw3IuoPljjZC31hFqSFkV1fF2nxCGvbcJwrM92z1z0"} (logger.py:61)
+[2022-01-09 22:40:30,790][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:30,949][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:31,287][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:31,450][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:31,450][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'nl98cxcHXuqnM5393y1ov4U5wzRmuvrqE4svW2taB4o+WgwHYNInBnFIGQSBkBMDOrPQLX9OEXkH\nUrVs0S81OCMXtDdfG6GRgGOawxHlWum3mLPJQjeSSrBWWVmTZKy0pMIZ5fbRu8+3wzgr7ShqAWV5\n+Xovy4Xc0oojrbNwd6xOmCYJK6X45GXVIXpjm7yDfQfDuWMJDQfJjgAIM9/N+Oy7xr0KpR6oRkCh\nT0TB+2Mp4ZwnAEWilOuPkY2LW8wB9QcT3mjBekC8LWn0TdLfZerNP51VMiU+gwY257wIfObfB7dn\nUrTiM9OgYmA='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:33,058][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:33,223][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:33,223][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '4zWX/SXCRBjGvVYfAMc+G6N2CND5sf8/+SUpPUi/2gtbbSOHCLiE+wXWnwjceHMQYuTO/RGk9G+o\nsEzdzYx/5TrYj/11iiSvhN1GGSg6TpVz53askzUswNlOrgCcXW4ACcG2qxQaNwGKBs34YvLFaDql\n3r7XR5unPrIMEp8HeSyP+4tntrCGF7qQtna8ud1QGh6g8CbXmJBwAED8G3Q+s3bJXe0nH8hRb9GI\nOzCBO+8sPUJBJ0mEYS0+j830Qbx524cnXR16hkn1jHKsnamucOFtm991lfr0lETPiHx0xVD9ODnp\nnPbtd7gy+uM='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:33,805][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:34,826][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:34,857][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:35,010][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:35,010][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'rpRXAVZ5vVbO5bH9MLrnG2nIYN2b2r6KbM1EU9vf//B16RR6CWizr9W+11CG1h+74OP4iFVjlUpY\n6v0N3SyloX1drpHRjLBrSWXdvK27WGDIq/9HBxjC/EyIzsFFVcbt0F6wtxXqtyabFOLK6/oOwaWB\n4V0tRcWZbzm+WRMdXNZrOHsOJ4Iy8NmzME0nsPYaGaH1sjVDPf1rCYk4hHJv2z0+n2hxivVKoVIb\n0OtWklxK+2Zvd/it/4AW2r9Q/ndKm6cF0+HpDTHU2x0/iCF/jLu45jz9QCAWfdH7kP49EKeteEay\n/5C3vEpvSy8='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:36,560][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:36,713][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:36,713][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'CWieX7VGeXDs4hYCgT/GymsPPvcwvWpwg3oZ9VGCQ3cAoAWwmzYw6RCKIzLNlQE7z2fytVlvcfbB\nNYhk7GJzg7GhZOnO/ei4h6Zq+eEdJipmt1O889ik/KonQg9xfergCebMKkZsuetuNcBmQGYFYl9v\n86h0bJnEibvFqclAs8ZX7jzMBdZUpFFSu3wGx1R9p9HIEq3yE9r/rLLnqHhvLBgQBMfnQD4fIxjH\nBouX5GhhtFC5nW1gg/LcpHb2z12IqdYVn+mv/q+ISxYe8obFgX+XxyP03hyWyVAXlcng124N/SPj\nYs48KnLErgE='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:38,396][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:38,579][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:38,579][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'cMtGykXxeHIhNYINMca8btQAP928oX4MnGq+JMNTdjIOJPteuWxYVyQUIb2pef4vq+7RNEuYNd5S\nigI8d+5zDOYXzYOXBHYOwLWV+pxnhH5ndsKexsQEJOQNV34aenQK+Zi7cs2fS3iWgkQ1OhmM+ZCR\nrmg9q8hw1NVlNX80bC7Zd+GbJOqhDNjVnVnZ2TbsyZIsyUukBL4ICRpkrXhIQ5RMcxJXlumQ1o6s\nNn0CRWAMDB5NQvxntmPLUdu+eqU/inSrPSjn/mA53aEgxXAMM3rnCM61h9mgWScFkkibu9fomWWH\n5WHV6AmQHjU='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:40,195][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:40,337][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:40,337][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'TroDKJyW3Xz8o4uhJJPs2QE3ao1fMRtKGYTccdB70wsxi/Lj2sjQdbbIzYjaUqpoVJ2zoTg076JW\nGcUYQmMloJdNbWfl6PT/hVflpgorelpbuwEF/KoUKQaWiDn0m2Syg7+vJBu0QXdmIukc17zPS/dA\nzTKfU22RKvKwRVbLLt1uiZ0EMADNRHlO8mF8Z1lo58wcK5BJ7RtEO8j+vlu9T3v2tf88WmcVT0B9\nZqDuT8LAh9gSScoSJ0Aed3et4+zHB3td/YmZG/OVvEjIerVzSEqo75/CuWRtoi1vbF4H6z/42yDY\n5WL3L+ch2RA='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:41,892][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:42,043][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:42,043][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'lxgDl9s1ZChX3AgTFOEVOU7qfNpRsFR248PVXnAO5ej9W1AD3oB8X4ZktWxPEigDNXTVhf4No4cy\nOaXVSmmQ2/lBx6NtnxB9zgFZBSeNXtoEZ2aZbDw5p8nYGOHq0yDmjSdn859Sa4Mfhc/HJZsk/KtM\nxOHSjFISmKvs+Hhg4DLiEOECRj7RzXWsZqTqD8ZX/pooP/6SYz6WCvHFVnUskwGD8Wbkp1RWvWTq\nbKZ8BuSgdXm7ZQCvRax09/6xINvli0Nm79tLLtLwofv/Iwu8yty/5lwWeoWavsloA59Nw5R9NdzH\nfehqpiWyaV8='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:43,662][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:43,831][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:43,831][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'HgIXQrJtEVkuE+Hz1y7TE4F7yAik09RjcW56jD1So81jXinqs4aTaybOwgAOBhk7G0dtbeUlwaLB\nsHRg8R9UwejsbgegVbzuIyn5x9WyB0MCTIUd0Vt0BC6J6zpwvMxsE1wCnCzkQK8eeOLZLs0F+zSU\nhBKRTbVl7wD3V4i9G3FdiqH98//QRQV6ovSlaSk6GR5UoCstL3/GAwjDs+wSwqeC95XVXWPhN3md\nxceqPTuREyfnRfBj1z8IkMQhpoExnGBdIrWMtZfU6PLVsGGHbpDkD+J56ofFB0Kvw4PraP+Xrv0I\nXHSsoKDJ/Lg='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:45,282][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:45,451][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:45,451][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'PIbq6aq+veup1hM/rgSBY5Yy6HrT9wdMCL+OPojzlwOxsXON+MO2FSFiwEgCm7t60eMESZv7CMX9\n8YR1QuHYGjUWhAS+h/+ek52QnDcyeN3Ix0epko6JnTe8SpkQakBOvb+vd69a7ZwK20HfD2NlJ5Vw\n4xWLhZI6Y227Y4dgYUrMhUFW9ypPBpQ+dOiVkO0yUxDioX/riF21DECfUoihcGYRPclEdlqn1dKX\nWRQ+N6PIRmyKP1iKgug5mdeLF9VeTnMfP64tZ3Rx9t0yavVr2vLL2Be6PD3PlHgP3Fg8+YFsWgBq\n+rWHZeTbeTg='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:47,038][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:47,185][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:47,185][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'DOcIdUGhlKIbQPx6kEO7XNv8eCAke1sEgc5eV3a/VxN/VgkeHMUa1B0+M/UXNMkVrqQkVmJBHOUd\n9OMkJUNX/PUbZR/2PUilk87DXCfacDrWW2dGOBNzVeNq4GUlRPWTXhkFP/7tdVFubJtT+RzPfb6f\nUV4u9N6mCrPcQqwXZHT6ZC1RNZVvl3Pyfa88AxCJsC8MPP2f36PNqC/5vFurVX6zhGPFlQqF+YIv\nFUyn7SlGb1ySgZMNmXXitD8LkV5RxRtHfuer6/liEbCkTDT/IZ0fqhV8ZRNY+JUrfx5OxzMUbJEC\nTh6Fbp2MIv0='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:48,741][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:40:48,905][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:40:48,905][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'rp3n2wxo4QW8EjHIdioYsH4ieJWv6R0KvgsDLEQUjT2ekDt1B8I/ktwOo6Fp7R5durHy8cbzU8JO\nHRYo630cay3eYwqg4fuBzy1A2VVaZSMGBBTZlF5pBM7VcVTE0ntFneaO507/XT2C/zpcikQJWMqW\nWyIGH8y1BB7IDlbzRs1HgfguRt5TKuGKpPOfXbuqcWb4BIkSRjIfdQAwH4kPLAnx/gyXCIrSbN76\njrXTPylqq/4JrpYP05hUNY+m6rpHE1QYZC5bogs1oXZHVAL7U9TVKCQDda4Z1iXiwEAEPC/FmJ0F\nc56BsRLPZjE='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:03,464][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:03,603][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:03,603][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'C8wqe3CBYRRTmWPNg2sakJEJp1rjb7BXHsHAlmMhqVpfhUGG4pnCb4G8ml9mdZLR3HmbzJQPlVpu\nUCI8xBN3w0+5pxb2UAP5jUiP6bgEroGg0iP+U235fG5feKocfDj00Z497EGVF+JDZHXK6oZd8zYl\nzSaBsFttc8ImcKRDFxU3+MQTIb7id9LPYgeE00iN0cMkCq+hbIZROMwxwa8O2IrHwekheP0i+vDH\nVU3c3qloD5gAj7unHZlHBqrgeF9+VBRt08Pf6J+FT+Xd4E2s4uPWOq2dngD+xqdckLhitEhuB1sg\nWpjEFUecTvg='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:05,910][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:06,076][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:06,076][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', '4qWnxFe8GEwthhv2slNs1VbUMd0i5oGnPqb45N6MTAmoxguYDGrfJg6H6UzozYe3fs1bR757osdM\nBioEq+MY/GqmlcxYdBN1oLR8TJIe8v5be+d/3ByeB8otEzol1VHL0vJmr7F54HGaSGY+Ql93WeYK\nA4gHOoiRc3vZZwPyPEc7Yj/my1zZ0bxmkjOuiy3kXK16tF5gQCHJE10HlmhV4KvfbIepMQ8wO0cI\nyZWbLJ3lZqjUmw4N90ROBUTJvOltNYyvdbuJvb3qUwVwliXClXctGorNssxlRsO/sV9nPPs0IkGi\n1VZ/37EwEoc='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:09,008][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:09,149][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:09,149][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'Mp2FtMb0tYsSx/VAP003nq2KUjLMwMtbrSWFfCSUMT4VhaY3ydlVXBdg7tCCYXrkqMoN5KrP+D5r\neMUtyvjprE/iKpDk2UOLPmHQPWaedERkg8FkeAiwpOkrz6Hwu7hReD7FsuIDVaXW1Wz+HDxhXI02\nB/63B3T7suDrgm7hvnw3fqf0hcyH/rI7UxNQw8vQYOh+ZzoCCtj7NrLsLItQ7xIb+OpkE1ymmsfa\nIc36pmabjXjJ/WiCtvx+MkG+L+R3Err2RmxwOPgFGtUTArkTUv2sZq2v7rEEXBnsZfmCqUXQlpmt\nJieVi3tT76o='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:12,070][    INFO] --- url: /otn/uamauthclient
+入参: {'tk': 'sNn1MqXCw3IuoPljjZC31hFqSFkV1fF2nxCGvbcJwrM92z1z0'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:12,224][    INFO] --- 出参：{"result_code":0,"result_message":"验证通过","username":"张家祥","apptk":"sNn1MqXCw3IuoPljjZC31hFqSFkV1fF2nxCGvbcJwrM92z1z0"} (logger.py:61)
+[2022-01-09 22:41:12,224][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:12,356][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:12,456][    INFO] --- url: /otn/confirmPassenger/getPassengerDTOs
+入参: {"_json_att": ""}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:12,593][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"notify_for_gat":"","isExist":true,"exMsg":"","two_isOpenClick":["93","95","97","99"],"other_isOpenClick":["91","93","98","99","95","97"],"normal_passengers":[{"passenger_name":"张家祥","sex_code":"M","sex_name":"男","born_date":"1998-02-15 00:00:00","country_code":"CN","passenger_id_type_code":"1","passenger_id_type_name":"中国居民身份证","passenger_id_no":"3407***********119","passenger_type":"3","passenger_type_name":"学生","mobile_no":"188****7267","phone_no":"","email":"","address":"","postalcode":"","first_letter":"ZJX","recordCount":"1","total_times":"99","index_id":"0","allEncStr":"f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af","isAdult":"Y","isYongThan10":"N","isYongThan14":"N","isOldThan60":"N","if_receive":"Y","is_active":"N","is_buy_ticket":"N","last_time":"20161219101537","passenger_uuid":"c4bf5fa2ea37b2ea28f7e6be442aa5bfdfa48973686fff05d779cf956d520625","gat_born_date":"","gat_valid_date_start":"","gat_valid_date_end":"","gat_version":""}],"dj_passengers":[]},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:12,593][    INFO] --- url: /otn/leftTicket/submitOrderRequest
+入参: [('secretStr', 'H5UQCZYqYbahVq0M1BOsweROQnUcLHoRmV5Y+mgXYWHwdLsO3blaLIzUvyX3tnCIxfQ3TXbB0JCw\nBgk5MTjjOjI++vmkTP/kXxLEWb9Th/zQBx8zBg+YpHu0jDkDBhwNZt+3jmAzTwdzCbJ8ieiPDpTN\nQ2ObAHMGPxwq8CgBVzqWxA4OCPFeAullLDznJDyQ9F6uAq1Vbc6KLgLfiw4xUKjORkgUE2MhNqtY\nema8Tr+kWVDbORjiwxpyL5WRQNfaOhgDYbGJuGT20AUdQJ+Jp8fUsqXdHz8B0SNfJzkHHUSWT9kW\nOW6a/8uS9wQ='), ('train_date', '2022-01-21'), ('back_train_date', '2022-01-09'), ('tour_flag', 'dc'), ('purpose_codes', 'ADULT'), ('query_from_station_name', '北京南'), ('query_to_station_name', '铜陵'), ('undefined', '')]
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:12,772][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":"0","messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:13,861][    INFO] --- url: /otn/confirmPassenger/checkOrderInfo
+入参: OrderedDict([('bed_level_order_num', '000000000000000000000000000000'), ('passengerTicketStr', 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af'), ('oldPassengerStr', '张家祥,1,3407***********119,3_'), ('tour_flag', 'dc'), ('randCode', ''), ('cancel_flag', 2), ('_json_att', ''), ('REPEAT_SUBMIT_TOKEN', '90aad8a42ff544a0c36d39bec9d2773f')])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:13,997][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"canChooseBeds":"N","canChooseSeats":"Y","choose_Seats":"O","isCanChooseMid":"N","ifShowPassCodeTime":"2107","submitStatus":true,"smokeStr":""},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:14,013][    INFO] --- url: /otn/confirmPassenger/getQueueCount
+入参: OrderedDict([('train_date', ('Fri Jan 21 2022 00:00:00 GMT+0800 (中国标准时间)',)), ('train_no', ('240000G3250M',)), ('stationTrainCode', ('G325',)), ('seatType', ('O',)), ('fromStationTelecode', ('VNP',)), ('toStationTelecode', ('KXH',)), ('leftTicket', ('9J4eynKjhLYbmhvq54W%2BMa6wH1MTqWIX4UkXt%2FDYKpRN7Q0r',)), ('purpose_codes', ('00',)), ('train_location', ('P4',)), ('REPEAT_SUBMIT_TOKEN', ('90aad8a42ff544a0c36d39bec9d2773f',))])
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:14,161][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"count":"0","ticket":"337","op_2":"false","countT":"0","op_1":"false"},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:15,233][    INFO] --- url: /otn/login/checkUser
+入参: {'_json_att': ''}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:16,267][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"flag":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:16,299][    INFO] --- url: /otn/confirmPassenger/confirmSingleForQueue
+入参: {'passengerTicketStr': 'O,0,3,张家祥,1,3407***********119,188****7267,N,f143a21f81e5746abbc6f28f1a391a2aab14dc13378ae2d01828dd6594d2595b88f1e68c3bc7ab0478df1f0cc4b1868ac94c0b2474fd745d9137225213de4cb5effc821b2f4ffad37f6b7e78ffa109af', 'oldPassengerStr': '张家祥,1,3407***********119,3_', 'purpose_codes': '00', 'key_check_isChange': 'EF8D0C8D7002FDC5FC1820B18DB7DA89EAFF82D5CC6D206894F49428', 'leftTicketStr': '9J4eynKjhLYbmhvq54W%2BMa6wH1MTqWIX4UkXt%2FDYKpRN7Q0r', 'train_location': 'P4', 'seatDetailType': '', 'roomType': '00', 'dwAll': 'N', 'whatsSelect': 1, '_json_at': '', 'randCode': '', 'choose_seats': '', 'REPEAT_SUBMIT_TOKEN': '90aad8a42ff544a0c36d39bec9d2773f'}
+请求方式: post
+ (logger.py:61)
+[2022-01-09 22:41:16,536][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"isAsync":"1","submitStatus":true},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:16,536][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641739276536&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 22:41:16,683][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":4,"requestId":6885953452699055929,"waitCount":0,"tourFlag":"dc","orderId":null},"messages":[],"validateMessages":{}} (logger.py:61)
+[2022-01-09 22:41:18,691][    INFO] --- url: /otn/confirmPassenger/queryOrderWaitTime?random=1641739278692&tourFlag=dc&_json_att=
+入参: None
+请求方式: get
+ (logger.py:61)
+[2022-01-09 22:41:18,860][    INFO] --- 出参：{"validateMessagesShowId":"_validatorMessage","status":true,"httpstatus":200,"data":{"queryOrderWaitTimeStatus":true,"count":0,"waitTime":-1,"requestId":6885953452699055929,"waitCount":0,"tourFlag":"dc","orderId":"EH10263366"},"messages":[],"validateMessages":{}} (logger.py:61)

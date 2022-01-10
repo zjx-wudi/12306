@@ -49,6 +49,7 @@ class select:
         self.oldPassengerStr = ""
         self.set_type = ""
         self.flag = True
+        print("ok")
 
     @staticmethod
     def get_ticket_info():
